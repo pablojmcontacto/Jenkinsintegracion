@@ -4,7 +4,7 @@ stages {
 stage('Checkout') {
 steps {
 git credentialsId: 'credenciales-github', url:
-'TU_URL_DE_REPOSITORIO_GITHUB'
+'https://github.com/pablojmcontacto/Jenkinsintegracion.git'
 }
 }
 stage('Construcción') {
